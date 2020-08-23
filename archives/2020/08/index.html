@@ -1,128 +1,71 @@
-
 <!DOCTYPE html>
+<html>
+  <!DOCTYPE html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Archives: 8/2020: 2020 | 张璞的网站</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.1.1/styles/solarized-light.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
-    <link rel="stylesheet" href="/custom.css"/>
-    <link rel="manifest" href="/manifest.json" />
-    <link rel="apple-touch-icon" href="/icon512.png">
-    <meta name="theme-color" content="#ffffff"/>
-    
-  <meta name="generator" content="Hexo 5.1.1"></head>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  
+  <title>归档 - 张璞的网站</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  
+  <meta name="keywords" content=生活,博客,前端,游戏>
+  
+  
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=1.02">
+  
+  
+    <link rel="alternate" href="/atom.xml " title="张璞的网站" type="application/atom+xml">
+  
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 5.1.1"></head>
   <body>
-    <script>
-      if ('serviceWorker' in navigator && false) {
-        window.addEventListener('load', function () {
-          navigator.serviceWorker.register('/sw.js', {scope: '/'})
-            .then(function (registration) {
-              // console.log('ServiceWorker registration successful with scope: ', registration.scope);
-            })
-            .catch(function (err) {
-              console.log('ServiceWorker registration failed: ', err);
-            });
-        });
-      }
-    </script>
-  <div id="page-container">
-    <nav class="navbar nav-shadow" role="navigation" aria-label="main navigation">
-  <div class="container">
-      <div class="navbar-brand">
-          <a class="navbar-item" href="/">
-              <img src="/icon192.png" height="50">
-          </a>
-          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-             data-target="mainNavbar">
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-          </a>
-      </div>
-      <div id="mainNavbar" class="navbar-menu">
-          <div class="navbar-start">
-              <a class="navbar-item" href="/"> 张璞的网站 </a>
-              <a class="navbar-item" href="/archives"> Archives </a>
-              <a class="navbar-item" href="/about"> About </a>
-          </div>
-      </div>
+    <div class="container">
+      <header class="header">
+  <div class="blog-title">
+    <a href="/" class="logo">张璞的网站</a>
+    <div class="subtitle"></div>
   </div>
-</nav>
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-  if ($navbarBurgers.length > 0) {
-    $navbarBurgers.forEach( el => {
-      el.addEventListener('click', () => {
-        const target = el.dataset.target;
-        const $target = document.getElementById(target);
-        el.classList.toggle('is-active');
-        $target.classList.toggle('is-active');
-      });
-    });
-  }
-});
-</script>
-    <div id="content-wrap">
-        <div class="container">
-          
+  <nav class="navbar">
+    <ul class="menu">
+      
+        <li class="menu-item">
+          <a href="/" class="menu-item-link">主页</a>
+        </li>
+      
+        <li class="menu-item">
+          <a href="/archives" class="menu-item-link">归档</a>
+        </li>
+      
+        <li class="menu-item">
+          <a href="/about" class="menu-item-link">关于</a>
+        </li>
+      
+    </ul>
+  </nav>
+</header>
+<section class="archive">
+  <h1 class="article-title">Posts</h1>
+  <ul class="post-archive">
+    
+      <li class="post-item">
+        <a class="post-title" href="/2020/08/23/hello-world/">Hello World</a>
+        <time class="post-date">2020-08-23</time>
+      </li>
+    
+  </ul>
+</section>
 
-<div class="container">
-    
-        <p class="title is-3">8/2020</p>
-        <table class="table is-fullwidth is-hoverable is-bordered is-striped">
-            <thead>
-            <tr>
-                <th>Title</th>
-                <th>Post Date</th>
-            </tr>
-            </thead>
-            <tbody>
-            
-                <tr>
-                    <td>
-                        <a href="/2020/08/23/hello-world/">
-                            Hello World
-                        </a>
-                    </td>
-                    <td>
-                        <time datetime="2020-08-23T11:18:51.651Z">
-                            2020-08-23
-                        </time>
-                    </td>
-                </tr>
-            
-            </tbody>
-        </table>
-    
-<nav class="pagination is-centered" role="navigation" aria-label="pagination">
-    <a class="pagination-previous shadow" href=".">Previous</a>
-    <a class="pagination-next shadow" href=".">Next Page</a>
-</nav>
-
-        </div>
-    </div>
-    
-<footer id="footer">
-    <div class="content has-text-centered">
-        <p>
-            © 2020 <a href="http://xn--e1t719b.com">zhang-pu</a>.
-            Powered by <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>.
-            Theme <a target="_blank" rel="noopener" href="https://github.com/songquanpeng/hexo-theme-lightx">lightx</a>.
-            
-        </p>
-    </div>
+<footer>
+  &copy; 2020
+  <span class="author">
+    zhang-pu
+  </span>
 </footer>
-  </div>
-  
-    <script id="dsq-count-scr" src="//iometa.disqus.com/count.js" async></script>
-  
-  
-  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@latest/build/highlight.min.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad();
-  </script>
+
+    </div>
   </body>
 </html>
